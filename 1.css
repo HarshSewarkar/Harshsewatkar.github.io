@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    position: relative;
+
+}
+nav-bar{
+    width: 100vw;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 55px;
+    position: fixed;
+    z-index: 99;
+    color: white;
+}
+.nav-bar-logo,img{
+    height: 10vh;
+}    
+.nav-bar-functions{
+    width: 39vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar-contacts{
+    width: 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav-bar h5{
+    font-size: 1.3vw;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.page-1{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://assets.website-files.com/638d59a2dc7d02ad8e6ae184/6392a6d5e5807044d3a6af62_1600-p-1600.jpg);
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000027;
+}
+.page-1 h1{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 70vw;
+    text-align: center;
+    color: white;
+    font-size: 6.3vw;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.page-1 button{
+    position: absolute;
+    padding: 15px 45px; 
+    background-color: #9B7963;  
+    color: white;
+    bottom: 30%;
+    border: none;
+    left: 41%;
+    font-size: 1.32vw;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+.page-1 button:hover{
+    background-color: #000;
+    transition: 1s;
+}
+.page-2{
+    position: relative;
+    width: 100vw;
+    height: 120vh;
+    background-color: white;
+}
+.page-2 h3{
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    transform: translate(50%,50%);
+}
+.page-3{
+    position: relative;
+    width: 100vw;
+    height: 120vh;
+    background-color: white;
+}
